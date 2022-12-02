@@ -19,9 +19,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: TedJeong                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: ML researcher, Quant, MS&BS in Physics   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/ted-logo.jpeg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -198,3 +198,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+categories: [Quantum Information, Artificial Intelligence]
+
+math: true
